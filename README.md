@@ -35,7 +35,7 @@ Long story short: We compared the voltages and signal pins - turns out these fit
 |11|PWM5 (11)|GPIO14 (5)|
 
 ## Design Decisions
-* Size must not be (much) larger than the WB2S module (so that it fits in the housing of the existing controller/PSU)
+* Size must not be (much) larger than the WB2S module (so that it fits in the housing of the [existing controller/PSU](photos/psu_controller.jpg))
 * Drop-in replacement, thus all pins must retain the same position
 * Utilize as many ESP pins as possible, despite the fact that the controller/PSU did not use all.
 * Have a reset button (every IoT device needs one)
