@@ -51,7 +51,7 @@ Long story short: We compared the voltages and signal pins - turns out these fit
 ## Installation
 * Get an ESP12 module and flash your preferred firmware and configure your WiFi. I used a device that you can find on AliExpress as "ESP12 burner". I'm writing this as first step b/c IMHO it's easier to flash  before you solder the ESP on the PCB (RX/TX is available, but why make your life compliated...). For future updates, OTA is availble in Tasmota and ESPhome. 
 * Go to [JLCPCB](https://cart.jlcpcb.com/quote) and upload the [gerbers.zip](gerber/gerber.zip). Sidenote: I'm neither sponsored nor do I endorse them specifically, I just find them convenient. <b>Make sure you select the correct PCB thickness (0.8 mm).</b> I also set "Remove Order Number" to "Specify a location" (layout contains a field for this). No other special settings.
-* Solder the components. I soldered the ESP12 first (try an reflow oven if you want to be fancy), b/c it provides a nice flat surface to lie on if flipped around for soldering the resistors and switches on the other side. 
+* Solder the components. I soldered the ESP12 first (try a reflow oven if you want to be fancy), b/c it provides a nice flat surface to lie on if flipped around for soldering the resistors and switches on the other side. 
 * Check continuity of pads to ESP12 contacts with a multimeter (it's no fun to find out that one pad is not OK once the module is soldered in the mainboard).
 * Solder the module into the mainboard of the controller/PSU.
 
