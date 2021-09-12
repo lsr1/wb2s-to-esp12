@@ -15,7 +15,7 @@ This is my first "public GitHub" project and thus neither very polished nor prof
 Despite the verbosity of the README, it assumes that you know how to solder and some basic eletronics. Some things here are weirdly specific, while some are infuriating generic (assuming a lot of knowhow). 
 
 ## Preamble (Why)
-A friend of a friend had LED lights built into his house, and the electrician wired them to a normal mains switch. Every time he turned them on, 10+ lights got power and tried to connect to the WiFi AP. Some of them didn't get a connection and - default error behavour - started flashing. We (naively) just wanted to reflash [ESPHome](https://esphome.io/) (or [Tasmota](https://tasmota.github.io/docs/)), just to discover after opening the controller/PSU that no ESP but a WB2S module was built in - and those can't be flashed (yet?). Bummer! 
+A friend of a friend had WiFi enabled LED lights built into his house, and the electrician wired them to a normal mains switch. Every time he turned them on, 10+ lights got power and tried to connect to the WiFi AP. Some of them didn't get a connection and - default error behavour - started flashing. We (naively) just wanted to reflash [ESPHome](https://esphome.io/) (or [Tasmota](https://tasmota.github.io/docs/)), just to discover after opening the controller/PSU that no ESP but a WB2S module was built in - and those can't be flashed (yet?). Bummer! 
 
 Long story short: We compared the voltages and signal pins - turns out these fit to an ESP! Since the module size reminded me of an ESP12 (and b/c I am a lazy person) I figured I'd just create a passive PCB with similar size as drop-in replacement.
 
