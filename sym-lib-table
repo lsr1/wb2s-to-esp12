@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name myWbs2)(type Legacy)(uri ${KIPRJMOD}/myWbs2.lib)(options "")(descr ""))
+  (lib (name SparkFun-Switches)(type Legacy)(uri ${KIPRJMOD}/SparkFun-KiCad-Libraries/Libraries/SparkFun-Switches.lib)(options "")(descr ""))
+  (lib (name SparkFun-Electromechanical)(type Legacy)(uri ${KIPRJMOD}/SparkFun-KiCad-Libraries/Libraries/SparkFun-Electromechanical.lib)(options "")(descr ""))
+)

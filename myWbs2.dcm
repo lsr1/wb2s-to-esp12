@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TestPoint
+D test point
+K test point tp
+F ~
+$ENDCMP
+#
+#End Doc Library

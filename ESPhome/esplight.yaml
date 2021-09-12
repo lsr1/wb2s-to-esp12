@@ -1,0 +1,65 @@
+substitutions:
+  DeviceName: esplight
+  
+esphome:
+  name: $DeviceName
+  platform: ESP8266
+  board: esp01_1m
+  
+<<: !include common/home_wifi.yaml
+  #<<: !include common/home_mqtt.yaml
+  
+api:
+
+#logger:
+
+web_server:
+  port: 80
+
+# Example configuration entry
+light:
+    - platform: rgbww
+      name: "Test Lights"
+      red: light_r
+      green: light_g
+      blue: light_b
+      cold_white: light_cw
+      warm_white: light_ww
+      cold_white_color_temperature: 6536 K
+      warm_white_color_temperature: 2000 K
+      color_interlock: false
+      effects:
+        - pulse:
+            name: "Pulse"
+        - strobe:
+            name: "Panic!"
+        - flicker:
+            name: "Flicker"
+
+
+# Example output entry
+output:
+    - platform: esp8266_pwm
+      id: light_cw
+      frequency: 1000 Hz
+      pin: GPIO14
+      
+    - platform: esp8266_pwm
+      id: light_g
+      frequency: 1000 Hz
+      pin: GPIO12
+
+    - platform: esp8266_pwm
+      id: light_b
+      frequency: 1000 Hz
+      pin: GPIO4
+
+    - platform: esp8266_pwm
+      id: light_ww
+      frequency: 1000 Hz
+      pin: GPIO5
+
+    - platform: esp8266_pwm
+      id: light_r
+      frequency: 1000 Hz
+      pin: GPIO13
