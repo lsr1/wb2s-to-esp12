@@ -61,7 +61,7 @@ Long story short: We compared the voltages and signal pins - turns out these fit
 
 ## Known 'bugs' (aka things that I plan to change for v0.2)
 * The current version v0.1 shows the silkscreen for the courtyard of the switches on the wrong side (that's IMHO a bug in the component).
-* The pads that stick "down through the mainboard" should be shorter (there is no harm if they are shorter, as they are only soldered from the bottom of mainboard anyway) so that they are not that close to the ESP12 pads.
+* The pads that stick "down through the mainboard" should be shorter (there is no harm if they are shorter, as they are only soldered from the bottom of the mainboard anyway) so that they are not that close to the ESP12 pads.
 * Try to name the pads with silkscreen (3v3, GND, GPIOx, ...)
 * Name the switches with silkscreen (SW1=RST and SW2=FLSH)
 
