@@ -19,6 +19,21 @@ A friend of a friend had WiFi enabled LED lights built into his house, and the e
 
 Long story short: We compared the voltages and signal pins - turns out these fit to an ESP! Since the module size reminded me of an ESP12 (and b/c I am a lazy person) I figured I'd just create a passive PCB with similar size as drop-in replacement.
 
+## Pin-mapping
+|row #| WB2S (pin)| ESP12 (pin)|
+--- | --- | ---
+|1|CEN (10)|EN (3)|
+|2|AD (8) |ADC (2)|
+|3|PWM0 (6) |GPIO4 (19)|
+|4|PWM1 (4)|GPIO12 (6)|
+|5|PWM2 (2) |GPIO13 (7)|
+|6|VBAT (1)|VCC (8)|
+|7|GND (3) |GND (15)|
+|8|1RX (5) |RXD0 (21)|
+|9|1TX (7)|TXD0 (22)|
+|10|PWM4 (9)|GPIO5 (20)|
+|11|PWM5 (11)|GPIO14 (5)|
+
 ## Design Decisions
 * Size must not be (much) larger than the WB2S module (so that it fits in the housing of the existing controller/PSU)
 * Drop-in replacement, thus all pins must retain the same position
