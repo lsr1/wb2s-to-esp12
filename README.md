@@ -6,6 +6,9 @@ passive pcb adapter-plate (drop-in replacement) for Tuya WB2S Wi-Fi Module to ES
 * This project consists of a KiCad project that gives you the Gerber files to order a PCB (e.g. at [JLCPCB](https://cart.jlcpcb.com)) onto which one ESP12 (flashed with the firmware of your choice), two switches and five 10k resistors are soldered. Then you remove the WB2S module and solder in your replacement module. <br>
 * For the impatient: Go to [Installation](#Installation). 
 
+## Picture
+
+![pcb image](photos/pcb_v01.png "pcb image")
 
 ## Sidenotes
 This is my first "public GitHub" project and thus neither very polished nor professional. I made something (crude) that I nevertheless think might be useful for somebody else. That is also the reason why this readme will be very long - for myself I want to document the story behind it for my records, and (hopefully) for your pleasure :-) </br>
