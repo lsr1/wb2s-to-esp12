@@ -5,6 +5,7 @@ passive pcb adapter-plate (drop-in replacement) for Tuya WB2S Wi-Fi Module to ES
 * This projects provides a drop-in replacement for a "[Tuya WB2S Wi-Fi <i>(sic!)</i> Module](https://developer.tuya.com/en/docs/iot/wb2s-module-datasheet?id=K9ghecl7kc479)". 
 * This project consists of a KiCad project that gives you the Gerber files to order a PCB (e.g. at [JLCPCB](https://cart.jlcpcb.com)) onto which one ESP12 (flashed with the firmware of your choice), two switches and five 10k resistors are soldered. Then you remove the WB2S module and solder in your replacement module. <br>
 * For the impatient: Go to [Installation](#Installation). 
+* We did this for [these lamps](http://www.amazon.at/dp/B0767GB9NP).
 
 ## Picture
 
@@ -68,7 +69,7 @@ Long story short: We compared the voltages and signal pins - turns out these fit
 ## License and Legalese
 * May be (re)used for personal/private use only and not sold/licensed for commercial or financial gain. This non-standard license should make it impossible and really difficult for commercial enterprises to profit from my work (pay people to design this!), but enable the hobbyist/enthusiast to work with it. 
 * I am using parts of the "SparkFun Electronics KiCad Libraries" which is licensed under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license. 
-* If I have inadverently (re-)used your work with either properly attributing it or something, please let me know - I'd be happy to correct this.
+* If I have inadverently (re-)used your work without either properly attributing it or something, please let me know - I'd be happy to correct this.
 
 ## Donations
 Yes please.
